@@ -67,7 +67,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: aws-security-group-updater
-        image: ghcr.io/guglio95/aws-security-group-updater:v1.0.0
+        image: ghcr.io/aguglie/aws-security-group-updater:v1.0.0
         env:
           - name: AWS_ACCESS_KEY_ID
             value: "AXXXXXXXXXXXXXXXXX"
